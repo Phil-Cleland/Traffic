@@ -9,8 +9,7 @@ yellow = LED(11)
 green = LED(26)
 
 
-while True:
-                       
+while True:            
             red.on()
             print("Stop")
             sleep(5)
@@ -26,6 +25,11 @@ while True:
             sleep(7)
             green.off()
             sleep(1)
+            yellow.on()
+            print("Get ready to stop")
+            sleep(3)
+            yellow.off()
+            sleep(1)
             if button.is_pressed:
                 buzzer.on()
                 sleep(1)
@@ -34,11 +38,3 @@ while True:
                 sleep(5)
                 red.off()
                 sleep(1)
-            
-           #buzzer.on()
-           #sleep(1)
-           #buzzer.off()
-           #sleep(1)
-           #print("beep")
-           
-           
