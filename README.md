@@ -1,6 +1,6 @@
 # ***THE TRAFFIC MONITORING SYSTEM (TSMS)***
 
-***PURPOSE OF THE PROJECT.***
+# ***PURPOSE OF THE PROJECT.***
 
 The TSMS is used to monitor or detect the over speeding of a car. The TSMS can also prevent the over-taking of cars within the traffic range
 which can lead to the prevention of car accidents.
